@@ -150,12 +150,10 @@ html{
     width: 100%;
     border: 2px solid #333; /* Agregamos un borde oscuro */
     border-radius: 8px; /* Redondeamos un poco los bordes */
-    filter: brightness(1.1) contrast(1.2); /* Ajustamos el brillo y el contraste */
     transition: filter 0.5s ease, transform 0.3s ease; /* Agregamos transición para el filtro y transformación */
 }
 
 #sobremi .contenedor-foto img:hover {
-    filter: brightness(1) contrast(1.2); /* Ajustamos el filtro al pasar el mouse */
     transform: scale(1.05); /* Escalamos un poco la imagen al pasar el mouse */
 }
 
